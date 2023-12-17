@@ -1,0 +1,20 @@
+## Code used to run the experiments provided in the ICML submission : 
+## Learning to bid in revenue maximizng auctions.
+
+To rerun the code, we advise to use notebookStrategiesPytorch.ipynb 
+to see how to compute the different strategies in the various settings 
+presented in the paper. 
+
+The code uses Python 3.6 and Pytorch 0.4.1.
+
+The networks are defined in bidder_strategy.py 
+
+The losses are defined in losses.py 
+
+The distributions in distributions.py.
+
+One training can be ran wit the main function in bidder_strategy.py 
+
+In utils.py, you can find how the evaluation process is used. 
+
+All the different settings are defined in notebookStrategiesPytorch.ipynb.
